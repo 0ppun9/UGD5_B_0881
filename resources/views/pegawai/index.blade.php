@@ -71,7 +71,7 @@
                                             @break
                                             @endswitch
                                         <td class="text-center">
-                                            @currency($item->gaji_pokok)
+                                        Rp {{ number_format($item->gaji_pokok,2,",",".") }}
                                         </td>
                                         <td class="text-center">
                                             @switch($item->status)
